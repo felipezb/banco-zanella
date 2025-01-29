@@ -1,0 +1,52 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definir fontes padrão */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+  }
+  
+  /* Container centralizado */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Botão principal */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Alinhamento de texto */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Margens */
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .mt-5 {
+    margin-top: 2rem;
+  }
